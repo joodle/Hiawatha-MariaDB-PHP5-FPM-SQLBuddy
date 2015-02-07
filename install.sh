@@ -46,7 +46,7 @@ service hiawatha restart;service php5-fpm restart
   echo "Done installing Hiawatha + MariaDB + PHP5-FPM + SQLBuddy"
   echo "You can access SQLBuddy using http://YOURIP/sqlbuddy/"
   echo "You can add websites using the hiawatha.conf file located at /etc/hiawatha/hiawatha.conf"
-  echo "Simply copy and paste the content that is between # Modify this to match your own website and # END and modify it to your liking"
+  echo "Simply copy and paste the content that is between # Modify thisto match your own website and # END and modify it to your liking"
   echo "To use SSL uncomment the lines between # SSL and # END SSL"
-  read read -n1 -r -p "Press any key to continue..."
+  read -n1 -r -p "Press any key to continue..."
 }
