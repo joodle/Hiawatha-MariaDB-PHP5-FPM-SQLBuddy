@@ -42,10 +42,11 @@ service hiawatha restart;service php5-fpm restart
 wget --no-check-certificate -O /var/www/hiawatha/sqlbuddy.zip https://github.com/calvinlough/sqlbuddy/raw/gh-pages/sqlbuddy.zip && unzip -d /var/www/hiawatha /var/www/hiawatha/sqlbuddy.zip && rm /var/www/hiawatha/sqlbuddy.zip
 
 
- {
+{
   echo "Done installing Hiawatha + MariaDB + PHP5-FPM + SQLBuddy"
   echo "You can access SQLBuddy using http://YOURIP/sqlbuddy/"
   echo "You can add websites using the hiawatha.conf file located at /etc/hiawatha/hiawatha.conf"
   echo "Simply copy and paste the content that is between # Modify thisto match your own website and # END and modify it to your liking"
   echo "To use SSL uncomment the lines between # SSL and # END SSL"
+  echo "To apply the changes for the Hiawatha config type service hiawatha restart"
 }
