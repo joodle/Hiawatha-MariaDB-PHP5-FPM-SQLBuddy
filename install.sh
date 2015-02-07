@@ -42,7 +42,6 @@ wget --no-check-certificate -O /var/www/first-site/sqlbuddy.zip https://github.c
 service hiawatha restart;service php5-fpm restart
 
 
-function enter ()
  {
   echo "Done installing Hiawatha + MariaDB + PHP5-FPM + SQLBuddy"
   echo "You can access SQLBuddy using http://YOURIP/sqlbuddy/"
