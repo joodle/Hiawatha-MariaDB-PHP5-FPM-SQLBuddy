@@ -39,7 +39,7 @@ mkdir /var/www/first-site
 service hiawatha restart;service php5-fpm restart
 
 # Downloading and unzipping SQLBuddy
-wget --no-check-certificate -O /var/www/hiawatha/sqlbuddy.zip https://github.com/calvinlough/sqlbuddy/raw/gh-pages/sqlbuddy.zip && unzip /var/www/hiawatha/sqlbuddy.zip && rm /var/www/hiawatha/sqlbuddy.zip
+wget --no-check-certificate -O /var/www/hiawatha/sqlbuddy.zip https://github.com/calvinlough/sqlbuddy/raw/gh-pages/sqlbuddy.zip && unzip -d /var/www/hiawatha /var/www/hiawatha/sqlbuddy.zip && rm /var/www/hiawatha/sqlbuddy.zip
 
 
  {
