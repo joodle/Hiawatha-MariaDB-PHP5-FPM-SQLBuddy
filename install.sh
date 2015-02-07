@@ -36,7 +36,7 @@ rm /etc/hiawatha/hiawatha.conf;wget --no-check-certificate -O /etc/hiawatha/hiaw
 mkdir /var/www/first-site
 
 # Downloading and unzipping SQLBuddy
-wget --no-check-certificate -O /var/www/first-site/sqlbuddy.zip https://github.com/calvinlough/sqlbuddy/raw/gh-pages/sqlbuddy.zip;unzip /var/www/first-site/sqlbuddy.zip;rm /var/www/first-site/sqlbuddy.zip
+wget --no-check-certificate -O /var/www/hiawatha/sqlbuddy.zip https://github.com/calvinlough/sqlbuddy/raw/gh-pages/sqlbuddy.zip;unzip /var/www/hiawatha/sqlbuddy.zip;rm /var/www/hiawatha/sqlbuddy.zip
 
 # Restarting Hiawatha and PHP-FPM
 service hiawatha restart;service php5-fpm restart
