@@ -48,5 +48,4 @@ service hiawatha restart;service php5-fpm restart
   echo "You can add websites using the hiawatha.conf file located at /etc/hiawatha/hiawatha.conf"
   echo "Simply copy and paste the content that is between # Modify thisto match your own website and # END and modify it to your liking"
   echo "To use SSL uncomment the lines between # SSL and # END SSL"
-  read -n1 -r -p "Press any key to continue..."
 }
