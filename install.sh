@@ -21,7 +21,7 @@ apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 0xcbcb082a1bb943db && a
 apt-get update
 
 # Installing MariaDB Server + Hiawatha + PHP5-FPM
-apt-get install mariadb-server -y;apt-get install libxslt1.1 -y;wget http://files.tuxhelp.org/hiawatha/hiawatha_9.12_amd64.deb;dpkg -i hiawatha_9.12_amd64.deb;apt-get install php5 php-pear php5-common php5-curl php5-mysql php5-fpm php5-gd -y;apt-get install unzip -y
+apt-get install mariadb-server -y;apt-get install libxslt1.1 -y;wget http://files.tuxhelp.org/hiawatha/hiawatha_9.13_amd64.deb;dpkg -i hiawatha_9.12_amd64.deb;apt-get install php5 php-pear php5-common php5-curl php5-mysql php5-fpm php5-gd -y;apt-get install unzip -y
 apt-get install -f
 
 # We're going to download the PHP-FPM php.ini file now
